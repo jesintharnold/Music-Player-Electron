@@ -2,3 +2,7 @@
 
 # Music-Player-Electron
 A cross platform music player using Electron and progressBar.js
+
+
+
+![](123.PNG)
