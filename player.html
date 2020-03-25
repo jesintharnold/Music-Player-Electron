@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Player</title>
+    <link  rel="stylesheet" type="text/css" href="player.css">
+    <script>window.$ = window.jQuery = require('jquery');</script>
+</head>
+<body>
+<div id="main-container">
+    <div id="title"><IMG src="icons/MusicMule.png"><h>Music Mule</h></div>
+
+    <button id="mini" onclick="miniW()"><img src="icons/minimize.png"  width="24px" height="24px"></button>
+    <button id="close" onclick="closeW()"><img src="icons/close.png"  width="24px" height="24px"></button>
+<div id="container">
+    <button id="play"  onclick="pauseSong()"><img src="icons/play.png" ></button>
+</div>
+<div id="control-container">
+    <button id="left-next"  onclick="nextLeft()"><img src="icons/next-left1.png" width="48px" height="48px"></button>
+    <button id="right-next" onclick="nextRight()" ><img src="icons/next-right1.png" width="48px" height="48px" ></button>
+</div>
+<div id="music-display">
+<div id="song-title" style="font-family: sans-serif;font-size:16px;text-align: center">
+
+</div>
+</div>
+
+<div id="volume-control">
+    <button id="minus" onclick="volDecrease() "> <img src="icons/minus.png" width="32px" height="32px"></button>
+    <button id="mute-unmute" onclick="volMute()"><img src="icons/speaker.png" width="32px" height="32px"></button>
+    <button id="plus" onclick="volIncrease()"><img src="icons/plus.png" width="32px" height="32px"></button>
+</div>
+    <div id="file-path">
+        <button id="get-path" onclick="opac()"><img src="icons/folder.png"></button>
+    </div>
+    <div id="credit" style="opacity: 0">by https://github.com/jesintharnold</div>
+
+</div>
+<script type="application/javascript" src="player.js"></script>
+</body>
+</html>
