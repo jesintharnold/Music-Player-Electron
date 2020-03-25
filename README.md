@@ -6,3 +6,9 @@ A cross platform music player using Electron and progressBar.js
 
 
 ![](123.PNG)
+
+
+- Clone the Respository
+- npm Start
+- Select Folder which contain songs
+- Click Folder refresh button to Load songs
